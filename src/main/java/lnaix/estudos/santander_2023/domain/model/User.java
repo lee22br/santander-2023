@@ -1,10 +1,11 @@
 package lnaix.estudos.santander_2023.domain.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.util.List;
 
-
+@Data
 @Entity(name = "tb_user")
 public class User {
 
